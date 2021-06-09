@@ -1,0 +1,194 @@
+﻿@page
+@model SealSearch.Pages.CreateCandidateModel
+@{
+    ViewData["Title"] = "Create Candidate";
+}
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 1200px;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightgoldenrodyellow;
+        opacity: 0.95;
+    }
+</style>
+
+<script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<form class="card">
+    <div style="padding-bottom: 2px;" class="col-md-12">
+        <div class="row">
+            <div class="col-md-6">
+                <!--Username-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <label>Username: </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="userName" type="text" placeholder="Username" style="width:100%;" />
+                    </div>
+                </div>
+                <!--Password-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <label>Password: </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="password" type="text" placeholder="Password" style="width:100%;" />
+                    </div>
+                </div>
+                <!--First Name-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>First Name: </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="firstName" type="text" placeholder="First Name" style="width:100%;" />
+                    </div>
+                </div>
+                <!--Last Name-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>Last Name: </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="lastName" type="text" placeholder="Last Name" style="width:100%;" />
+                    </div>
+                </div>
+                <!--Email-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>Email Address: </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="email" type="text" placeholder="Email" style="width:100%;" />
+                    </div>
+                </div>
+                <!--Date of Birth-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Date of Birth (mmddyyyy): </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="dob" type="text" placeholder="D.O.B." style="width:100%;" />
+                    </div>
+                </div>
+                <!--Phone Number-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Phone Number (##########): </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="phoneNumber" type="text" placeholder="Phone" style="width:100%;" />
+                    </div>
+                </div>
+                <!--Location-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Location (City, State): </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="location" type="text" placeholder="Location" style="width:100%;" />
+                    </div>
+                </div>
+                <!--Photo-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>Profile Picture: </label>
+                    </div>
+                    <div class="col-md-10">
+                        <input id="txtFile" type="file" value="Upload Photo" style="width:100%;" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img id="imgViewer" width="200" height="200" style="border:1px solid #000000;" />
+            </div>
+        </div>
+        <!--Buttons-->
+        <div class="row">
+            <div class="col-md-12">
+                <!--<button id="btnSave" class="btn btn-primary" style="width:100%; margin-top:10px;">Create Account</button>
+                <button id="btnRead" class="btn btn-danger" style="width:100%;margin-top:10px;">Read Information</button>-->
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="row">
+    <div class="col-md-12">
+        <button onclick="window.location.href='https://sealsearchcareers.azurewebsites.net/AccountSuccessful'" style="width:100%; margin-top:10px;">
+            Create Account
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+    });
+    $("#txtFile").change(function (event) {
+        var files = event.target.files;
+        $("#imgViewer").attr("src", window.URL.createObjectURL(files[0]));
+    });
+    $("#btnSave").click(function () {
+        var files = $("#txtFile").prop("files");
+        var formData = new FormData();
+        for (var i = 0; i < files.length; i++) {
+            formData.append("file", files[i]);
+        }
+        var oCandidate = {
+            userName: $("#userName").val(),
+            password: $("#password").val(),
+            firstName: $("#firstName").val(),
+            lastName: $("#lastName").val(),
+            email: $("#email").val(),
+            dob: $("#dob").val(),
+            phoneNumber: $("#phoneNumber").val(),
+            location: $("#location").val()
+        };
+        formData.append("Candidate", JSON.stringify(oCandidate));
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/SaveFile",
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (data) {
+                ResetFields();
+                alert(data);
+            },
+            error: function (data) {
+                console.log('Error:', data);
+            }
+        });
+    });
+    $("#btnRead").click(function () {
+        $.ajax({
+            type: "GET",
+            url: "/Home/GetSavedCandidate",
+            success: function (data) {
+                $("#userName").val(data.userName);
+                $("#password").val(data.password);
+                $("#firstName").val(data.firstName);
+                $("#lastName").val(data.lastName);
+                $("#email").val(data.email);
+                $("#dob").val(data.dob);
+                $("#phoneNumber").val(data.phoneNumber);
+                $("#location").val(data.location);
+                $("imgViewer").attr('src', "data:image/jpg;base64," + data.photo + "");
+            },
+            error: function (data) {
+                console.log('Error:', data);
+            }
+        });
+    });
+
+    function ResetFields() {
+        $("#userName, #password, #firstName, #lastName, #email, #dob, #phoneNumber, #location").val("");
+        $("imgViewer").attr("src", "");
+    }
+</script>

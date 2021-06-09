@@ -1,0 +1,27 @@
+﻿@page
+@model SealSearch.Pages.AccountSuccessfulModel
+@{
+    ViewData["Title"] = "Account Creation Successful";
+}
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightgoldenrodyellow;
+        opacity: 0.9;
+    }
+</style>
+
+<div class="card">
+    <h1>@ViewData["Title"]</h1>
+
+    <p>To go to your homepage, click here: </p>
+    <button onclick="window.location.href='https://sealsearchcareers.azurewebsites.net/';">
+        Home
+    </button>
+</div>
+

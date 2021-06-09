@@ -1,0 +1,39 @@
+﻿@page
+@model SealSearch.Pages.Logged_OutModel
+@{
+    ViewData["Title"] = "Logged Out Successfully";
+}
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightgoldenrodyellow;
+        opacity: 0.95;
+    }
+</style>
+
+<div class="card">
+    <h1 style="padding-bottom: 20px;">@ViewData["Title"]</h1>
+
+    <p style="font-weight:bold">You have been safely logged out from the site at @DateTime.Now</p>
+
+    <p><br></p>
+
+    <p>To sign back in, please click the link below:</p>
+    <button onclick="window.location.href='https://sealsearchcareers.azurewebsites.net/Sign-In';">
+        Sign-in
+    </button>
+
+    <p><br></p>
+    <p>To create an account, please click the link below:</p>
+    <button onclick="window.location.href='https://sealsearchcareers.azurewebsites.net/CreateCandidate';">
+        Create Account
+    </button>
+</div>
+
+
+

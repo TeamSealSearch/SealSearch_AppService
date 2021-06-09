@@ -1,0 +1,98 @@
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.exe
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.deps.json
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.runtimeconfig.json
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.runtimeconfig.dev.json
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.Views.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\SealSearch.Views.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.AssemblyInfoInputs.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.AssemblyInfo.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.RazorAssemblyInfo.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.RazorAssemblyInfo.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\staticwebassets\SealSearch.StaticWebAssets.Manifest.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\staticwebassets\SealSearch.StaticWebAssets.xml
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\scopedcss\bundle\SealSearch.styles.css
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.TagHelpers.input.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.TagHelpers.output.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.RazorCoreGenerate.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.RazorTargetAssemblyInfo.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.RazorTargetAssemblyInfo.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.Views.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.genruntimeconfig.cache
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\SealSearch.csproj.CopyComplete
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Account.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Logged Out.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Logout.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Applied Jobs.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Blocked List.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Change Password.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Delete Account.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Hibernate Account.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Job Criteria.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Manage Followed Companies.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Profile Visibility.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Settings\Search Results.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\Sign-In.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Browse Jobs.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Companies.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Edit Filters.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Edit Resume.cshtml.g.cs
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nicol\source\repos\SealSearch\SealSearch\obj\Debug\netcoreapp3.1\Razor\Pages\Accounts\CreateCandidate.cshtml.g.cs

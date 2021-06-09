@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - sealsearch</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+
+        body {
+            background-image: url("DePaul-University-Spring.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+        .footer {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: white;
+        }
+
+        .dropbtn {
+            border-right: 30px;
+            border-left: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 18px;
+            background-color: white;
+            color: black;
+            border: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .dropdown {
+            position: absolute;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                display: block;
+                text-decoration: none;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+                .dropdown-content a:hover {
+                    color: goldenrod;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            color: goldenrod;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: white;
+            opacity: .9;
+            overflow-x: hidden;
+            padding-top: 100px;
+            transition: 0.5s;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover {
+                    color: goldenrod;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 20px;
+        }
+
+        .button {
+            background-color: lightgoldenrodyellow;
+            border: none;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 50%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+
+
+                <a class="navbar-brand" asp-area=""
+                   style="
+                   font-family: Georgia, 'Times New Roman', Times, serif ;
+                   font-size: 25px;
+                   font-weight: 100;
+                   padding-top: 10px;
+                   padding-bottom: 10px;
+                   color: goldenrod;
+                   "
+                   asp-page="/Index">SealSearch</a>
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+
+
+                            <a class="nav-link text-dark" asp-area=""
+                               style="
+                                border-right: 30px;
+                                border-left: 30px;
+                                padding-left: 30px;
+                                padding-right: 30px;
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                font-size: 18px;
+                                color: black;
+                                font-family: Georgia, 'Times New Roman', Times, serif ;
+                                "
+                               asp-page="/Index">Home</a>
+
+
+                        </li>
+                        <li>
+
+                            <a>
+                                <input type="text"
+                                       style="
+                                        width:700px;
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                        padding-left: 20px;
+                                        padding-right: 20px;
+                                        line-height: 18px;
+                                        display: inline;
+                                        font-family: Georgia, 'Times New Roman', Times, serif ;
+                                        "
+                                       placeholder="Looking for something?">
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="dropbtn">Account</button>
+                                <div class="dropdown-content">
+                                    <a href="Account">Profile</a>
+                                    <a href="Settings">Settings</a>
+                                    <a href="Logout">Logout</a>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="/Browse Jobs">Browse Jobs</a>
+        <a href="/Edit Filters">Edit Filters</a>
+        <a href="/Edit Resume">Edit Resume</a>
+        <a href="/Companies">Companies</a>
+    </div>
+
+    <div id="main">
+        <p>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </p>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - sealsearch - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script>
+        function openNav() {
+
+            var myNav = document.getElementById("mySidenav");
+            var mymain = document.getElementById("mySidenav");
+
+            /* close nav */
+            if (myNav.style.width == "250px" && mymain.style.width == "250px") {
+                document.getElementById("mySidenav").style.width = "0px";
+                document.getElementById("main").style.marginLeft = "0px";
+                document.body.style.backgroundColor = "white";
+
+                /* open nav */
+            } else {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+        }
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

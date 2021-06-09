@@ -1,0 +1,29 @@
+﻿@page
+@model SealSearch.Pages.LogoutModel
+@{
+    ViewData["Title"] = "Logout";
+}
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightgoldenrodyellow;
+        opacity: 0.95;
+    }
+</style>
+
+<div class="card">
+    <p style="padding-top: 20px; font-weight: bold; font-size: 24px;">Are you sure you want to logout?</p>
+
+    <button onclick="window.location.href='https://sealsearchcareers.azurewebsites.net/Logged Out';">
+        Yes
+    </button>
+    <button onclick="window.location.href='https://sealsearchcareers.azurewebsites.net/';">
+        No
+    </button>
+</div>
+

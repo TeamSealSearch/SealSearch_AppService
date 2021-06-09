@@ -1,0 +1,58 @@
+﻿@page
+@model SealSearch.Pages.Sign_InModel
+@{
+    ViewData["Title"] = "Sign-In";
+}
+
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightgoldenrodyellow;
+        opacity: 0.95;
+    }
+</style>
+
+<div class="card">
+    <h1 style="padding-bottom: 30px">@ViewData["Title"]</h1>
+    <a>
+        <input type="text"
+               style="
+                                        width:300px;
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                        padding-left: 20px;
+                                        padding-right: 20px;
+                                        line-height: 18px;
+                                        display: inline;
+                                        font-family: Georgia, 'Times New Roman', Times, serif ;
+                                        "
+               placeholder="Type username here">
+    </a>
+    <p><br /></p>
+
+    <a>
+        <input type="password" id="pwd" name="pwd"
+               style="
+                                        width:300px;
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                        padding-left: 20px;
+                                        padding-right: 20px;
+                                        line-height: 18px;
+                                        display: inline;
+                                        font-family: Georgia, 'Times New Roman', Times, serif ;
+                                        "
+               placeholder="Type password here">
+    </a>
+    <p><br /></p>
+
+    <button onclick="window.location.href='https://sealsearchcareers.azurewebsites.net/';">
+        Sign-in
+    </button>
+</div>
+
